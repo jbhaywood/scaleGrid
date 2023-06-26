@@ -17,7 +17,7 @@ export class gridUtils {
     if (evt) {
       result = evt.data.getLocalPosition(canvas.app.stage)
     } else {
-      let mouse = canvas.app.renderer.plugins.interaction.mouse;
+      let pointer = canvas.app.renderer.plugins.interaction.pointer;
       result = mouse.getLocalPosition(canvas.app.stage);
     }
 
