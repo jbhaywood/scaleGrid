@@ -2,7 +2,7 @@
 	"id": "scaleGrid",
 	"title": "Grid Scaler",
 	"description": "A set of tools to quickly match the scene grid to your map's grid. Works with both squares and hexes.",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"compatibility": {
 		"minimum": 10,
 		"verified": "11"
@@ -21,5 +21,5 @@
 	],
 	"url": "https://github.com/jbhaywood/scaleGrid/",
 	"manifest": "https://raw.githubusercontent.com/jbhaywood/scaleGrid/master/module.json",
-	"download": "https://github.com/jbhaywood/scaleGrid/archive/refs/tags/v1.4.2.zip"
+	"download": "https://github.com/jbhaywood/scaleGrid/archive/refs/tags/v1.4.3.zip"
 }
