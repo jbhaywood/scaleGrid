@@ -17,9 +17,10 @@ export class gridUtils {
     if (evt) {
       result = evt.data.getLocalPosition(canvas.app.stage)
     } else {
-      const { app: { plugins: { interaction } } } = canvas;
-      // Older version of Foundry use mouse, newer versions use pointer.
-      let pointer = interaction.mouse || interaction.pointer;
+      // Older Foundry versions use the first case, newer versions (>v11) use the second.
+      const interaction = canvas.app?.plugins?.interaction || canvas.app?.renderer?.plugins?.interaction;
+      // Older versions of Foundry use mouse, newer versions (>v10) use pointer
+      const pointer = interaction.mouse || interaction.pointer;
       result = pointer.getLocalPosition(canvas.app.stage);
     }
 
