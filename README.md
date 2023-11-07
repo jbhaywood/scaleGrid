@@ -5,6 +5,8 @@
 
 # Grid Scaler
 
+# THIS VERSION IS NO LONGER MAINTAINED! USE THE ONE [HERE](https://github.com/atomdmac/scaleGrid) INSTEAD!!
+
 ## How to Use
 
 Once the plugin is loaded a new wrench icon will appear below the main tool selection. Click on the Grid Scaler icon to get to the tools.  
