@@ -2,7 +2,7 @@
 	"id": "scaleGrid",
 	"title": "Grid Scaler",
 	"description": "A set of tools to quickly match the scene grid to your map's grid. Works with both squares and hexes.",
-	"version": "1.4.3",
+	"version": "1.4.4",
 	"compatibility": {
 		"minimum": 10,
 		"verified": "11"
@@ -11,6 +11,12 @@
 		{
 			"name": "ArcaneRoboBrain",
 			"discord": "ArcaneRoboBrain#6885"
+		},
+		{
+			"name": "jbhaywood"
+		},
+		{
+			"name": "atomdmac"
 		}
 	],
 	"esmodules": [
@@ -19,7 +25,7 @@
 	"styles": [
 		"./styles/gridStyle.css"
 	],
-	"url": "https://github.com/jbhaywood/scaleGrid/",
-	"manifest": "https://raw.githubusercontent.com/jbhaywood/scaleGrid/master/module.json",
-	"download": "https://github.com/jbhaywood/scaleGrid/archive/refs/tags/v1.4.3.zip"
+	"url": "https://github.com/atomdmac/scaleGrid/",
+	"manifest": "https://raw.githubusercontent.com/atomdmac/scaleGrid/master/module.json",
+	"download": "https://github.com/atomdmac/scaleGrid/archive/refs/tags/v1.4.4.zip"
 }
